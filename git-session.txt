@@ -9,3 +9,8 @@ git commit -m "Add git-session.txt"
 git log
 git diff 1st-commit 2nd-commit (logically more right)
 git diff 2nd-commit 1st-commit (instead of '+' --> '-')
+git checkout 1st-commit
+make some changes 
+git checkout master //return back to the latest commit 
+git log  // missing commit "come from checkout"
+git reflog  //all commits
