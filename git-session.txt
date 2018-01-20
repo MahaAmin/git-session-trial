@@ -19,3 +19,12 @@ create an empty repository on github
 git remote add origin <https://github.com/MahaAmin/git-session-trial.git>
 git status 
 git push origin master
+####################################################################################################
+----------------------Branching---------------------------------------------------------------------
+git branch 	// list all branchs
+git branch <branching>	// create new branch
+git checkout <branching>
+This line done on branch branching
+git add <git-session.txt>
+git commit -m "This line is done on branch branching"
+
