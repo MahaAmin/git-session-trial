@@ -27,5 +27,21 @@ git checkout <branching>
 This line done on branch branching
 git add <git-session.txt>
 git commit -m "This line is done on branch branching"
-
+git checkout master
+git push origin master
+git checkout branching
+git push origin branching
+---------------------Merge-Conflict-----------------------------------------------------------------------
+git merge master branching
+########--Error-Message--########
+Auto-merging git-session.txt
+CONFLICT (content): Merge conflict in git-session.txt
+Automatic merge failed; fix conflicts and then commit the result.
+#######################--Solving-The-Conflict---###################################
+subl git-session.txt 
+git add git-session.txt
+git commit -m "Solving Conflict"
+git merge master branching
+################################################################################################################
+################################################################################################################
 
