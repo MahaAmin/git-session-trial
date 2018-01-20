@@ -7,3 +7,5 @@ git add <git-session.txt>
 git status
 git commit -m "Add git-session.txt"
 git log
+git diff 1st-commit 2nd-commit (logically more right)
+git diff 2nd-commit 1st-commit (instead of '+' --> '-')
