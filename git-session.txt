@@ -1,0 +1,4 @@
+mkdir <git-session-trial>
+cd <git-session-trial>
+git init
+touch <git-session.txt>
