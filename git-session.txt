@@ -2,3 +2,8 @@ mkdir <git-session-trial>
 cd <git-session-trial>
 git init
 touch <git-session.txt>
+write in the file 
+git add <git-session.txt>
+git status
+git commit -m "Add git-session.txt"
+git log
