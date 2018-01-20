@@ -1,3 +1,4 @@
+------------------Basics: Create-Repository & Dealing-with-Commits------------------------------ 
 mkdir <git-session-trial>
 cd <git-session-trial>
 git init
@@ -14,3 +15,7 @@ make some changes
 git checkout master //return back to the latest commit 
 git log  // missing commit "come from checkout"
 git reflog  //all commits
+create an empty repository on github
+git remote add origin <https://github.com/MahaAmin/git-session-trial.git>
+git status 
+git push origin master
