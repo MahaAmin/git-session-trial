@@ -1,3 +1,18 @@
+----------------Setting-Working-Environment-----------------------------------------------------
+1)Install Git:
+	- Debian_Based distros:
+		$ sudo apt update
+		$ sudo apt install git-core
+	-Redhat_Based distros:
+		$ sudo yum update
+		$ sudo yum install git
+	- Windows:
+		= Download and install git-bash
+2)Create an account on GitHub.
+3)git config --global user.name "username"
+4)git config --global user.email "user@mail.com"
+5)git config --global core.editor "text_editor"
+
 ------------------Basics: Create-Repository & Dealing-with-Commits------------------------------ 
 mkdir <git-session-trial>
 cd <git-session-trial>
